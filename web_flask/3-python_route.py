@@ -40,7 +40,7 @@ def python(text):
     A route to display “Python ”, followed by the value of the text
     variable (replace underscore _ symbols with a space )
     """
-    return f"python {text.replace('_', ' ')}"
+    return f"Python {text.replace('_', ' ')}"
 
 
 if __name__ == "__main__":
