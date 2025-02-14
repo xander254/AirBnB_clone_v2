@@ -23,7 +23,7 @@ def hbnb():
 @app.route("/c/<text>", strict_slashes=False)
 def cisfun(text):
     """A route that uses variables"""
-    return "c " + text.replace("_", " ") + "\n"
+    return "C " + text.replace("_", " ") + "\n"
 
 
 if __name__ == "__main__":
